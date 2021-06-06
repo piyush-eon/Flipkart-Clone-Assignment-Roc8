@@ -1,5 +1,5 @@
 import SingleCard from "../SingleCard/SingleCard";
-import "./ProductSection.css";
+import "./ProductSection.scss";
 import { products, sortBy } from "../../data/products";
 import { useEffect } from "react";
 import { filterProducts } from "../../config/config";

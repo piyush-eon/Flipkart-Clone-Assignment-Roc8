@@ -1,0 +1,39 @@
+.singlecard {
+  width: 25%;
+  padding: 10px;
+  cursor: pointer;
+
+  &__img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+  }
+
+  &__data {
+    padding: 6px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    transition: 200ms ease-in-out;
+  }
+
+  &:hover > &__data {
+    height: 120px;
+    transform: translateY(-20px);
+    transition: 200ms ease-in-out;
+  }
+
+  &__brand {
+    font-weight: 500;
+    color: grey;
+    text-transform: capitalize;
+  }
+
+  &__name {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,21 @@
+.sidebar {
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+
+  &__title {
+    width: 100%;
+    display: flex;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__categories {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}

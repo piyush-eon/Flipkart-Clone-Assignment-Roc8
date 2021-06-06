@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import { addFilter, filterProducts } from "../../config/config";
 import { products } from "../../data/products";
-import "./Sidebar.css";
+import "./Sidebar.scss";
 
 const Sidebar = ({
   setsortValue,

@@ -1,4 +1,4 @@
-import "./SingleCard.css";
+import "./SingleCard.scss";
 
 const SingleCard = ({ product }) => {
   // const pricecalc = (pri) => {};
